@@ -30,6 +30,25 @@ class Staff:
 class Library:
     def __init__(self, name):
         self.name = name
-        self.staffs = []
         self.books = []
         self.members = []
+
+
+class Staff: 
+    def __init__(self, id, name):
+        self.__id = id
+        self.__name = name
+
+    @property
+    def id(self):
+        return self.__id
+
+    @property
+    def name(self):
+        return self.__name
+
+    def __str__(self):  # it is called when str(object) is called
+        return f"<Staff- id: `{self.id}`, name: `{self.name}`>"
+
+    def __repr__(self):  # it is called representation method, which called for any kind of representation of the object
+        return f"<Staff- id: `{self.id}`, name: `{self.name}`>"

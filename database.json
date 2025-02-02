@@ -1,5 +1,14 @@
 {
     "members": [],
-    "staff": [],
+    "staff": [
+        {
+            "id": "1",
+            "name": "Darsh"
+        },
+        {
+            "id": "2",
+            "name": "Anurag"
+        }
+    ],
     "books": []
 }
