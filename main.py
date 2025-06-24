@@ -4,7 +4,6 @@ from repository import get_staffs
 
 
 staffs = get_staffs()
-print(staffs)
 
 def setup():
     # region Initiate Services
